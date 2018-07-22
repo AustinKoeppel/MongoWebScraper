@@ -34,7 +34,7 @@ $.getJSON("/articles", function(data) {
       let button = document.createElement("a");
       button.classList.add("btn","btn-success","col");
       button.style.maxWidth = "180px";
-      button.style.maxWidth = "39px";
+      button.style.maxHeight = "39px";
       button.href = "#";
       button.innerText = "Save Article";
       button.setAttribute("data-id",data[i]._id);
