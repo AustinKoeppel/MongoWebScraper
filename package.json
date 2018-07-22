@@ -1,0 +1,24 @@
+{
+  "name": "mongo-web-scraper",
+  "version": "1.0.0",
+  "description": "A simple web app to scrape a news site and condense it into links",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "Mongo",
+    "Cheerio",
+    "scraper",
+    "mongoose"
+  ],
+  "author": "Austin Koeppel",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cheerio": "^1.0.0-rc.2",
+    "mongoose": "^5.2.4",
+    "morgan": "^1.9.0"
+  }
+}
