@@ -16,9 +16,11 @@
   "author": "Austin Koeppel",
   "license": "MIT",
   "dependencies": {
+    "body-parser": "^1.18.3",
     "axios": "^0.18.0",
     "cheerio": "^1.0.0-rc.2",
     "mongoose": "^5.2.4",
-    "morgan": "^1.9.0"
+    "morgan": "^1.9.0",
+    "express": "^4.16.3"
   }
 }
